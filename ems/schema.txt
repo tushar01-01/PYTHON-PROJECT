@@ -1,0 +1,30 @@
+Admin
+_______________________________________________
+id	int	primary key	auto_increment
+name	varchar(50)
+email	varchar(50)
+password	varchar(50)
+
+Department
+_______________________________________________
+id	int	primary key	auto_increment
+name	varchar(50)
+email	varchar(50)
+
+Employee
+_______________________________________________
+id	int	primary key	auto_increment
+name	varchar(50)
+dob	varchar(50)
+contact	varchar(15)
+email	varchar(15)
+profile	varchar(15)
+address varchar(100)
+department	int
+salary	int
+
+Attendance
+______________________________________________
+id	int	primary key	auto_increment
+adate	date
+eid	varchar(100)
