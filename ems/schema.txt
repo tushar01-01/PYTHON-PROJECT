@@ -1,3 +1,4 @@
+SCHEMA FOR STORING INFORMATION IN DATABASE
 Admin
 _______________________________________________
 id	int	primary key	auto_increment
